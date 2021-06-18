@@ -1,21 +1,15 @@
 package com.program;
 
-import java.util.Scanner;
- 
 public class Quotient_Rem {
     public static void main(String[] args){
         
         int dividend, divisor, quo, rem;
-        Scanner sc = new Scanner(System.in);
-        
-       
         System.out.print("Enter Dividend:");
-        dividend = sc.nextInt();
+        dividend = Utility.getUserSpecificInteger();
         
-       
         System.out.print("Enter Divisor:");
-        divisor = sc.nextInt();
-        sc.close();
+        divisor = Utility.getUserSpecificInteger();
+        
         
         quo = dividend / divisor;
         
@@ -26,4 +20,3 @@ public class Quotient_Rem {
         System.out.println("Remainder: "+rem);
     }
 }
- 
