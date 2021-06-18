@@ -1,16 +1,14 @@
 package com.program;
-import java.util.Scanner;
+
 public class SwapNumber
 {
  public static void main(String[] args) 
  {
   int a, b, c;
-  Scanner sc=new Scanner(System.in);
   System.out.println("Enter Value in a :");
-  a=sc.nextInt();
+  a = Utility.getUserSpecificInteger();
   System.out.println("Enter Value in b :");
-  b=sc.nextInt();
-  sc.close();
+  b = Utility.getUserSpecificInteger();
   c=a;
   a=b;
   b=c;
