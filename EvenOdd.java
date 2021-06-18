@@ -1,4 +1,4 @@
-package javaPrograms;
+package com.programs;
 
 
 public class EvenOdd
