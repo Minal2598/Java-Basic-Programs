@@ -1,14 +1,11 @@
 package com.program;
 
-import java.util.Scanner;
-
 public class PowerOfTwo{
   public static void main(String [] args) {
     
-    Scanner scan = new Scanner(System.in);
+   
     System.out.println("Enter N: ");
-    int power = scan.nextInt();
-    scan.close();
+    int power = Utility.getUserSpecificInteger();
 
     	System.out.println("Power of 2: ");
         for(int i=0; i<=power ; i++){
